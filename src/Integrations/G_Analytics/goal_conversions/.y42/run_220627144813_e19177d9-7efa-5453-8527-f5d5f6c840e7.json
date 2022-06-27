@@ -1,6 +1,6 @@
 {
   "request_id": "220627144813_e19177d9-7efa-5453-8527-f5d5f6c840e7",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "1529f03f-d85b-443f-8ba1-3ac21b7d68e9",
     "target_credentials": "17fd1e25-0e0d-4feb-a840-95d36a110d9d",
@@ -53,5 +53,8 @@
     }
   },
   "created_at": "2022-06-27T14:48:13.895139+00:00",
-  "_signature": "MObs+2zGTH+jcoIN2suQHczZQOKF9HGamiNR/jdzMHmXn+QAw/6xElhz97q3bWmgHzvlK5fKCU0HHHDaE1fzCg=="
+  "failed_at": "2022-06-27T14:48:26.908602+00:00",
+  "error_code": 403,
+  "error_message": "CRITICAL Received fatal error <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">, reason=forbidden, status=403ERROR Giving up query_api(...) after 1 tries (googleapiclient.errors.HttpError: <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">)\nERROR Stopping execution while processing 'goal_conversions' due to Unknown Errors.\n",
+  "_signature": "RYpkw42fhwQRS6GeLwUSBkE81JUtxNH+OOwPsaZtc/XM5GAz9k7mnZGKK7BTOz9jvjyk7ehWwP+faBgAZoZxDA=="
 }
