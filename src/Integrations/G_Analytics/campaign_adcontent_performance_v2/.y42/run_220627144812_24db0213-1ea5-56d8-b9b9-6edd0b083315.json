@@ -1,0 +1,63 @@
+{
+  "request_id": "220627144812_24db0213-1ea5-56d8-b9b9-6edd0b083315",
+  "status": "invalid",
+  "request": {
+    "source_credentials": "1529f03f-d85b-443f-8ba1-3ac21b7d68e9",
+    "target_credentials": "17fd1e25-0e0d-4feb-a840-95d36a110d9d",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "243933964"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_channelGrouping",
+        "ga_sourceMedium",
+        "ga_campaign",
+        "ga_adContent",
+        "ga_adGroup",
+        "ga_countryIsoCode",
+        "ga_users",
+        "ga_newUsers",
+        "ga_sessions",
+        "ga_sessionDuration",
+        "ga_pageviews",
+        "ga_bounces",
+        "ga_transactions",
+        "ga_transactionRevenue",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "campaign_adcontent_performance_v2"
+    },
+    "created_at": "2022-06-27T14:48:12.664840+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/G_Analytics/campaign_adcontent_performance_v2/",
+        "id": "5:d344e937-61ae-4677-98a9-67036c028610",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_243933964",
+        "commit_sha": "2ce70a5ec528b9dd5ba63bad80bcdde8be733bfd"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-27T14:48:12.664840+00:00",
+  "failed_at": "2022-06-27T14:48:27.449550+00:00",
+  "error_code": 403,
+  "error_message": "INFO Syncing stream: campaign_adcontent_performance_v2INFO Retrieving data for day 2022-01-01\nINFO URL being requested: POST https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json\nINFO Attempting refresh to obtain initial access_token\nINFO Refreshing access_token\nWARNING Encountered 403 Forbidden with reason \"forbidden\"\nWARNING request failed with 'User does not have sufficient permissions for this profile.', will retry\nCRITICAL Received fatal error <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">, reason=forbidden, status=403\nERROR Giving up query_api(...) after 1 tries (googleapiclient.errors.HttpError: <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">)\nERROR Stopping execution while processing 'campaign_adcontent_performance_v2' due to Unknown Errors.\n",
+  "_signature": "Ms0PdS7W5oCIaogEYHIA5kmafHcSYPl9Zb3uu1NwvxEibR68JuPWBdVNgULyxKWdT+FUw5TjQq1K2sCXKg1UBA=="
+}
