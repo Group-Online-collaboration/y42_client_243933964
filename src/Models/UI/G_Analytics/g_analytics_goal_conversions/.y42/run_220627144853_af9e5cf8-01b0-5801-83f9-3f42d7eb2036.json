@@ -1,6 +1,6 @@
 {
   "request_id": "220627144853_af9e5cf8-01b0-5801-83f9-3f42d7eb2036",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "17fd1e25-0e0d-4feb-a840-95d36a110d9d",
     "source_settings": {
@@ -34,5 +34,8 @@
     }
   },
   "created_at": "2022-06-27T14:48:53.569034+00:00",
-  "_signature": "BhYqqUQBT3olfzD/JOPkBv7Qiz7lf9fb0SQmxhMfZgf6ElO50E3IfsMzBDs+vO857F2IBQ+KE02B4NLPFNyKDQ=="
+  "failed_at": "2022-06-27T14:49:02.519493+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"no valid import\",\"datetime\":\"2022-06-27T14:49:02.495045+00:00\",\"requestId\":\"56debc6a-8d8b-4bff-bae4-ca85042869a4\",\"channel\":\"local\"}",
+  "_signature": "2IfIav4F54AYFm2TVub7LVrPh4DNJ+9WOVe/ILXdTIEMcL1lCNFNl3rvdYBKlxKYLxd1RJaMZa3aRYOzZSgCCw=="
 }
