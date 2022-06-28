@@ -1,0 +1,8 @@
+{
+  "request_id": "220628114949_eaf05e56-7ba6-5921-afaf-40555b007171",
+  "status": "invalid",
+  "failed_at": "2022-06-28T11:50:04.907748+00:00",
+  "error_code": 403,
+  "error_message": "INFO Syncing stream: campaign_adcontent_performance_v2INFO Retrieving data for day 2022-01-01\nINFO URL being requested: POST https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json\nINFO Attempting refresh to obtain initial access_token\nINFO Refreshing access_token\nWARNING Encountered 403 Forbidden with reason \"forbidden\"\nWARNING request failed with 'User does not have sufficient permissions for this profile.', will retry\nCRITICAL Received fatal error <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">, reason=forbidden, status=403\nERROR Giving up query_api(...) after 1 tries (googleapiclient.errors.HttpError: <HttpError 403 when requesting https://analyticsreporting.googleapis.com/v4/reports:batchGet?alt=json returned \"User does not have sufficient permissions for this profile.\">)\nERROR Stopping execution while processing 'campaign_adcontent_performance_v2' due to Unknown Errors.\n",
+  "_signature": "eVEp0pTaNSg2hJGnonBp8o2QFHagOMXxW/LNhvYHBwdMCx9SBRcdp7isYPmjd43zym9a0r2lDuNTaWg2RlmcAg=="
+}
